@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  cache:
+    image: redis:7.0-alpine
+    restart: 'no'
+    ports:
+      - '6379:6379'
+    command: redis-server --requirepass "password123"
+    volumes: 
+      - ./data:/data

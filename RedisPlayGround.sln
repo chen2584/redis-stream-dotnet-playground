@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BB9FE80C-3242-46E0-ADAA-42BCA7722C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisPlayGround.Publisher", "src\RedisPlayGround.Publisher\RedisPlayGround.Publisher.csproj", "{0EDCEB2D-15BF-4770-884C-DA3C514EDE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisPlayGround.Consumer", "src\RedisPlayGround.Consumer\RedisPlayGround.Consumer.csproj", "{AC681F6F-B5A9-4468-B886-8C5F664EB215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EDCEB2D-15BF-4770-884C-DA3C514EDE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDCEB2D-15BF-4770-884C-DA3C514EDE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDCEB2D-15BF-4770-884C-DA3C514EDE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDCEB2D-15BF-4770-884C-DA3C514EDE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC681F6F-B5A9-4468-B886-8C5F664EB215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC681F6F-B5A9-4468-B886-8C5F664EB215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC681F6F-B5A9-4468-B886-8C5F664EB215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC681F6F-B5A9-4468-B886-8C5F664EB215}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EDCEB2D-15BF-4770-884C-DA3C514EDE0D} = {BB9FE80C-3242-46E0-ADAA-42BCA7722C65}
+		{AC681F6F-B5A9-4468-B886-8C5F664EB215} = {BB9FE80C-3242-46E0-ADAA-42BCA7722C65}
+	EndGlobalSection
+EndGlobal
